@@ -1,0 +1,458 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #3C673F;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&family=Nunito:wght@700&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #3C673F;
+    font-size: 20px;
+}
+
+.tela1{
+    height: 100vh;
+    background-image:url(./assets/img/backgroundtelainicial2.png);
+    background-position: center;
+    color: #fff;
+    text-align: center;
+
+}
+
+.tela1 hr {
+    margin:auto;
+    width: 33%;
+    border-top: 1.4px solid #fff;
+}
+
+.tela3 hr {
+    width: 100%;
+    border-top: 1.4px solid #437346;
+}
+
+.tela1 h1{
+    font-weight: 800;
+    padding-top: 40vh;
+    font-size: 60px;
+    line-height: 75px;
+    width: 1443px;
+    margin: 0 auto 40px;
+}
+
+.tela1 p, .tela3 p, .tela4 p{
+    font-weight: 300;
+    font-size: 32px;
+    letter-spacing: 1px;
+    width: 1130px;
+    margin: 30px auto 0;
+}
+
+.tela3 p{
+    width: 535px;
+    margin: 30px 0 0;
+}
+
+
+.butttoappdownload, .buttonvejamais, .buttonenviar{
+    width: 236px;
+    height: 46px;
+    background-color: #F2A950;
+    color: #3C673F;
+    margin-top: 70px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 25px;
+}
+
+.butttoappdownload:hover, .butttoacessarloja:hover{
+    background-color: #fff;
+}
+
+header{
+    height: 130px;
+    background-color: rgb(255, 255, 255, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header li{
+    margin-right: 50px;
+}
+
+header .carrinho img{
+    height: 40px;
+    margin-top: -10px;
+}
+
+header .buttoncadastre{
+    width: 236px;
+    height: 46px;
+    margin-top: -10px;
+    background-color: #F2A950;
+    color: #3C673F;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 25px;
+}
+
+header .buttoncadastre:hover{
+    background-color: #fff;
+}   
+
+.tela2{
+    height: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tela2 img{
+    align-items: center;
+}
+
+.tela3{
+    height: 800px;
+    background-color: #D9F2D5;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.textotela3{
+    width: 690px;
+}
+
+
+.tela3 h1, .tela4 h1{
+    font-weight: 800;
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+.tela4 h1{
+    width: 650px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.tela4{
+    height: 800px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagemtela4{
+    width: 690px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagemtela4 img{
+    height: 260px;
+    margin: 0 auto;
+}
+
+.formulariotela4{
+    width: 740px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #3C673F;
+    border-radius: 25px;
+    text-align: center;
+}
+
+#fname, #email, #celular {
+    width: 640px;
+    height: 46px;
+    background-color: #fff;
+    color: #437346;
+    font-weight: 600;
+    font-size: 20px;
+    border: solid 1px #437346;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#fname{
+    margin-top: 50px;
+}
+
+.buttonenviar{
+    margin-left: 400px;
+    margin-top: 20px;
+}
+
+.buttonenviar:hover{
+    background-color: #437346;
+    color: #fff;
+}
+
+footer{
+    height: 460px;
+    background-color: #437346;
+}
+
+.footerparte1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footerparte2{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.hortavivafooter, .hortavivafooter2, .hortavivafooter3{
+    display: block;
+    text-decoration: none;
+    margin-top: 35px;
+}
+
+footer .hortavivainfos a, .hortavivainfos2 a, .hortavivainfos3 a{
+    color: #fff;
+    font-weight: 400;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer img {
+    margin-bottom: 20px;
+}
+
+footer li{
+    margin-bottom: 10px;
+}
+
+.logohortavivabranco{
+    height: 30px;
+}
+
+.textRedesSociais{
+    margin-top: 40px;
+}
+
+.midiassociais{
+    display: flex;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-right: 520px;
+}
+
+.midiassociais img{
+    margin-right: 18px;
+}
+
+.textFalecomAGente{
+    margin-right: 180px;
+}
+
+@media (max-width: 475px){
+    header{
+        height: 60px;
+        display: none;
+    }
+
+    .tela1{
+        width: 375px;
+        height: 576px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tela1 h1{
+        padding-top: 20vh;
+        font-size: 24px;
+        margin-bottom: 14px;
+        line-height: normal;
+        width: 285px;
+    }
+
+    .tela1 hr {
+        width: 270px;
+    }
+
+    .tela1 p, .tela3 p, .tela4 p{
+        font-size: 14px;
+        margin-top: 14px;
+        font-weight: 500;
+        width: 290px;
+    }
+
+    .butttoappdownload, .butttoacessarloja, .buttonenviar{
+        margin-top: 50px;
+        font-size: 15px;
+    }
+
+    .tela2{
+        width: 375px;
+        height: 875px;
+        display: block;
+        margin-left: 80px;
+        margin-top: 20px;
+    }
+
+    .tela2 img{
+        margin-top: 30px;
+        width: 334px;
+        margin: 0 -50px;
+    }
+
+    .tela3{
+        width: 375px;
+        height: 667px;
+        flex-direction: column-reverse;
+        margin-top: 20px;
+    }
+
+    
+    .textotela3{
+        width: 250px;
+    }
+    
+    
+    .tela3 h1, .tela4 h1{
+        font-weight: 800;
+        font-size: 24px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .textotela3 p{
+        margin: 15px 0 -30px;
+    }
+
+    .imagemtela3 img{
+        width: 344px;
+        margin-top: -30px;
+    }
+    
+    .buttonvejamais{
+        width:250px;
+    }
+
+    .tela4{
+        width: 375px;
+        height: 667px;
+        flex-direction: column;
+    }
+
+    .imagemtela4 img{
+        width: 124px;
+        height: 124px;
+        margin: 0 auto;
+    }
+
+    .imagemtela4 h1{
+        width: 235px;
+        margin-top: 24px;
+        margin-bottom: 46px;
+    }
+
+    .formulariotela4{
+        width: 335px;
+        height: 326px;
+    }
+
+    .formulariotela4 p{
+        font-size: 16px;
+    }
+    
+    #fname, #email, #celular {
+        width: 286px;
+        height: 39px;
+        font-size: 14px;
+        margin-bottom: 11px;
+    }
+    
+    #fname{
+        margin-top: 18px;
+    }
+    
+    .buttonenviar{
+        width: 286px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+
+    /*footer*/
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+    }
+
+    .footerparte1{
+        flex-direction: column;
+        margin: 0 auto;
+        align-items:center;
+    }
+
+    .footerparte2{
+        flex-direction: column-reverse;
+        align-items:center;
+    }
+
+    .logohortavivabranco img{
+        width: 136px;
+        height: 24px;
+    }
+
+    .textVamosMudarOMundo{
+        width: 200px;
+        height: 15px;
+    }
+
+    .textTransparencia{
+        width: 116px;
+        height: 18px;
+    }
+
+    .textFalecomAGente{
+        width: 142px;
+        height: 18px;
+        margin-right: 0;
+    }
+
+    .hortavivainfos li, .hortavivainfos2 li, .hortavivainfos3 li, .textRedesSociais{
+        display: none;
+    }
+    
+    .midiassociais{
+        margin-right: 0;
+    }
+
+}
